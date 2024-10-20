@@ -14,7 +14,7 @@ MONITORING_INTERVAL = 60  # Segundos
 SMTP_SERVER = 'smtp.office365.com'
 SMTP_PORT = 587
 SENDER_EMAIL = 'robcamgar@outlook.es'  # Cambia esto con tu correo
-SENDER_PASSWORD = 'Otorrino1973'  # Cambia esto con la contraseña de la cuenta
+SENDER_PASSWORD = 'Manolito1973'  # Cambia esto con la contraseña de la cuenta
 RECIPIENT_EMAIL = 'robcamargar@gmail.com'  # Cambia esto con el correo de destino
 
 def send_alert(email_subject, email_body):
