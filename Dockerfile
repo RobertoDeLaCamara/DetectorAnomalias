@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8080
 
 # Comando por defecto para ejecutar el script
-CMD ["python", "script.py"]
+CMD ["python", "detector_anomalias.py"]
