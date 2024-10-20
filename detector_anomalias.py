@@ -160,9 +160,6 @@ def monitor_network():
 
     print("Monitoreo finalizado.")
 
-if __name__ == "__main__":
-    monitor_network()
-
 
 def log_alert(subject, body):
     """Registra las alertas en el archivo de logs y las muestra en la consola."""
