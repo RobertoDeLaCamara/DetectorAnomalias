@@ -1,17 +1,17 @@
-# Utiliza una imagen base de Python 3
+# Use a Python 3 base image
 FROM python:3.9-slim
 
-# Establecer el directorio de trabajo dentro del contenedor
+# Set the working directory inside the container
 WORKDIR /app
 
-# Copiar los archivos del proyecto en el contenedor
+# Copy the project files into the container
 COPY . .
 
-# Instalar las dependencias desde el archivo requirements.txt
+# Install dependencies from the requirements.txt file
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Exponer el puerto 8080 (si el script llega a necesitarlo)
+# Expose port 8080 (if the script ever needs it)
 EXPOSE 8080
 
-# Comando por defecto para ejecutar el script
-CMD ["python", "detector_anomalias.py"]
+# Default command to run the script
+CMD ["python", "main.py"]
